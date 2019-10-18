@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XKLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XKLib (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XKLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XKLib: b49b8fc25aaac6119ddf8f14ae6c908df4a5332c
+
+PODFILE CHECKSUM: fb064d97d647f560cb3b074334cc32900afb9b13
+
+COCOAPODS: 1.7.1

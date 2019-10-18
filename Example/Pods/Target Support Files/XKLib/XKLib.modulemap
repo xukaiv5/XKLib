@@ -1,0 +1,6 @@
+framework module XKLib {
+  umbrella header "XKLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
